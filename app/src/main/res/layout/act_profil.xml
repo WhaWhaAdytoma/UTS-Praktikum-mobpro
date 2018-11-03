@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFIL"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:background="#75ffffff"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/profil"
+        android:paddingTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/img"
+        android:layout_alignParentStart="true"
+        android:text="NIM : 1157050174 "
+        android:textSize="20sp"
+        android:paddingLeft="30dp"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/nim"
+        android:text="Nama : Wha Wha Adytoma "
+        android:textSize="20sp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/nama"
+        android:text="Jurusan :Teknik Informatika"
+        android:textSize="20sp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/jurusan"
+        android:text="TTL : Bekasi, 25 Mei 1997 "
+        android:textSize="20sp"
+        android:paddingLeft="30dp"/>
+
+
+</RelativeLayout>
